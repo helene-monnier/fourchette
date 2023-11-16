@@ -10,6 +10,8 @@ let enteredNumber = parseInt(prompt('Quel est le nombre à trouver ?'));
 // Le nombre d'essais
 let attempts = 1;
 
+
+
 // Tant que le nombre saisi n'est pas bon on redemande un nombre
 while (enteredNumber !== searchedNumber) {
     // on vérifie que l'utilisateur a répondu, sinon on sort de la boucle
